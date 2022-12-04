@@ -5,7 +5,7 @@
 
 .maincontainer {
 
-    border: 2px solid red;
+    border: 0px solid red;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -14,8 +14,10 @@
 }
 
 .container{
-    border: 2px solid red;
-    width: 50%;
+    border: 0px solid red;
+    background-color: #ffffff;
+
+    width: 45%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -26,10 +28,10 @@
 }
 
 .account{
-    border: 2px solid rgb(197, 154, 0);
-    width: 95%;
+    border: 0px solid rgb(197, 154, 0);
+    width: 92%;
     height: 30%;
-    margin: 25px;
+    margin: 5px;
     display: flex;
     flex-direction: column;
 justify-content: center;
@@ -45,11 +47,11 @@ height: 25%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-background-color: #f1f1f1;
+background-color: #f9f9f9;
 border-radius: 5px;
 }
 .left1{
-    border: 1px solid rgb(224, 21, 21);
+    border: 0px solid rgb(224, 21, 21);
     width: 8%;
     height: 75%;
     margin: 5px;
@@ -65,9 +67,9 @@ border-radius: 5px;
     border-left: 1px solid #c5c5c5;
     width: 70%;
     height: 75%;
-    margin: 5px;
+    margin: 6px;
     display: flex;
-    padding: 2px;
+    padding: 4px;
     align-items: center;
 }
 .email{
@@ -77,13 +79,13 @@ height: 25%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-background-color: #f1f1f1;
+background-color: #f9f9f9;
 border-radius: 5px;
 
 }
 
 .left2{
-    border: 2px solid rgb(15, 204, 22);
+    border: 0px solid rgb(15, 204, 22);
     width: 8%;
     height: 75%;
     margin: 5px;
@@ -98,7 +100,7 @@ border-radius: 5px;
     height: 75%;
     margin: 5px;
     display: flex;
-    padding: 2px;
+    padding: 4px;
     align-items: center;
 }
 
@@ -109,15 +111,15 @@ height: 25%;
 display: flex;
 align-items: center;
 justify-content: flex-start;
-background-color: #f1f1f1;
+background-color:#f9f9f9;
 border-radius: 5px;
 
 }
 
 .left3{
-    border: 2px solid rgb(255, 0, 149);
+    border: 0px solid rgb(255, 0, 149);
     width: 8%;
-    height: 75%;
+    height: 85%;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -130,28 +132,33 @@ border-radius: 5px;
     height: 75%;
     margin: 5px;
     display: flex;
-    padding: 2px;
+    padding: 4px;
     align-items: center;
 }
 
 .DOBGender{
-    border: 2px solid rgb(255, 166, 0);
-    width: 95%;
+    border: 0px solid rgb(255, 166, 0);
+    width: 92%;
     height: 25%;
     margin: 5px auto;
     display: flex;
+    align-items: center;
    justify-content: flex-start;
 }
 
 .dob{
-    border: 2px solid rgb(94, 61, 0);
+    border: 0px solid rgb(94, 61, 0);
     width: 50%;
     height: 100%;
+    display: flex;
+    margin: px;
+    justify-content: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
 .subdob{
-    border: 2px solid rgb(0, 183, 28);
     width: 100%;
     height: 80%;
     display: flex;
@@ -162,42 +169,53 @@ justify-content: space-around;
     
 }
 .mm{
-    border: 2px solid rgb(227, 5, 157);
+    border: 1px solid gray;
 
     width: 25%;
     height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#f9f9f9;
+    border-radius:5px;
+
 }
 .dd{
-    border: 2px solid rgb(227, 5, 157);
 
     width: 25%;
     height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#f9f9f9;
+    border-radius:5px;
+    border: 1px solid gray;
+
+
 }
 
 .yy{
-    border: 2px solid rgb(227, 5, 157);
+    border: 1px solid gray;
 
     width: 25%;
     height: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#f9f9f9;
+    border-radius:5px;
+
+
 }
 
 .gender {
-    border: 2px solid rgb(94, 61, 0);
+    border: 0px solid rgb(94, 61, 0);
     width: 50%;
     height: 100%;
 }
 
 .subgender{
-    border: 2px solid rgb(227, 5, 157);
+    border: 0px solid rgb(227, 5, 157);
 
     width: 100%;
     height: 80%;
@@ -207,71 +225,237 @@ justify-content: space-around;
 }
 
 .male{
-    border: 2px solid rgb(94, 61, 0);
+    border: 1px solid gray;
     width: 50%;
     height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#f9f9f9;
+    border-radius:5px;
 }
 .female{
-    border: 2px solid rgb(94, 61, 0);
+    border: 1px solid gray;
     width: 50%;
     height: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#f9f9f9;
+    border-radius:5px;
+
 }
 
 
 .paymentdetail{
-    border: 2px solid rgb(2, 44, 255);
-    width: 95%;
-    height: 35%;
+    border: #f0a500;
+    width: 100%;
+    height: 45%;
     margin: 25px;
+     margin: 9px;    
+
 
 }
 
 .subpayment{
-    border: 2px solid rgb(212, 7, 21);
+    border: 0px solid rgb(3, 3, 3);
     width: 100%;
-    height: 87%;
+    height: 90%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .paymenttype{
-    border: 2px solid rgb(89, 0, 255);
-    width: 100%;
-    height: 35%;
+    border: 0px solid rgb(106, 255, 0);
+    width: 90%;
+    height: 25%;
     display: flex;
     justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 
 .ccard{
-    border: 2px solid rgb(212, 7, 21);
+    border: 1px solid gray;
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+   background-color: #f0a500;
     
 }
 .paypal{
-    border: 2px solid rgb(212, 7, 21);
+    border: 1px solid gray;
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    background-color:#f9f9f9;
+
+}
+
+.cardnumber{
+    border: 1px solid gray;
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.cardLogo{
+    border: 0px solid blue;
+    width: 15%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardnum{
+   
+    border-left: 1px solid #c5c5c5;
+   
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: #f9f9f9;
+
+
+}
+
+.expiry{
+    
+    border: 0px solid red;
+    width: 90%;
+    height: 25%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    
+
+}
+
+.leftc{
+    border: 1px solid gray;
+    border-radius:5px ;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.logoe{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+
+}
+
+.cvv{
+    border-left: 2px solid #b4b1b1;
+    width: 85% ;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3px;
+    background-color: #f9f9f9;
+
+}
+
+.rightc{
+    border: 0px solid rgb(25, 0, 255);
+    width: 60%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    justify-content: flex-end;
+    
+}
+
+.date{
+    border: 1px solid #b4b1b1;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
+}
+
+.year{
+    border: 1px solid #b4b1b1;
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+
 }
 
 
 
 .terms {
-    border: 2px solid rgb(83, 67, 137);
+    border: 0px solid rgb(83, 67, 137);
     width: 95%;
-    height: 10%;
+    height: 20%;
     margin: 2px;
+}
+
+.content {
+    border: 0px solid rgb(247, 89, 3);
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.check {
+    border: px solid rgb(247, 89, 3);
+     width: 2%;
+     height: 30%;
+     margin: 5px;
+     display: flex;
+     justify-content: center;
+     justify-content: flex-start;
+}
+
+.lorem{
+    border: px solid rgb(255, 4, 175);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+
+}h3{
+
+    color: #f0a90d;
 }
